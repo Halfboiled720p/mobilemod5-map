@@ -1,0 +1,39 @@
+name: resep_masakan_app
+description: Aplikasi resep masakan dengan login dan pendaftaran
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # Untuk navigasi dan routing
+  get: ^4.6.5
+  # Untuk mendukung custom widget dan desain UI
+  font_awesome_flutter: ^10.2.1
+  # Untuk menangani autentikasi dan form validasi (jika ingin menambahkannya nanti)
+  flutter_form_builder: ^7.0.0
+  # Untuk mengelola status dan menambahkan visual feedback jika diperlukan
+  provider: ^6.1.2
+  get_storage: ^2.1.1
+  image_picker: ^1.0.8
+  video_player: ^2.5.2
+  speech_to_text: ^6.6.2
+  permission_handler: ^11.3.1
+  google_maps_flutter: ^2.1.1
+  audioplayers: ^6.1.0
+  geolocator: ^10.0.0
+  url_launcher: ^6.0.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
